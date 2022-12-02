@@ -1,0 +1,447 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт</title>
+	<script>
+	function add () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c3').value = Number(document.getElementById('c3').value) + 1
+	}
+	function add2 () {
+		if (Number(document.getElementById('c3').value) > 0) {
+			document.getElementById('c3').value = Number(document.getElementById('c3').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add3 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c4').value = Number(document.getElementById('c4').value) + 1
+	}
+	function add4 () {
+		if (Number(document.getElementById('c4').value) > 0) {
+			document.getElementById('c4').value = Number(document.getElementById('c4').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add5 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c5').value = Number(document.getElementById('c5').value) + 1
+	}
+	function add6 () {
+		if (Number(document.getElementById('c5').value) > 0) {
+			document.getElementById('c5').value = Number(document.getElementById('c5').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add7 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c6').value = Number(document.getElementById('c6').value) + 1
+	}
+	function add8 () {
+		if (Number(document.getElementById('c6').value) > 0) {
+			document.getElementById('c6').value = Number(document.getElementById('c6').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add9 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c7').value = Number(document.getElementById('c7').value) + 1
+	}
+	function add10 () {
+		if (Number(document.getElementById('c7').value) > 0) {
+			document.getElementById('c7').value = Number(document.getElementById('c7').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add11 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c8').value = Number(document.getElementById('c8').value) + 1
+	}
+	function add12 () {
+		if (Number(document.getElementById('c8').value) > 0) {
+			document.getElementById('c8').value = Number(document.getElementById('c8').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add13 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c9').value = Number(document.getElementById('c9').value) + 1
+	}
+	function add14 () {
+		if (Number(document.getElementById('c9').value) > 0) {
+			document.getElementById('c9').value = Number(document.getElementById('c9').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	function add15 () {
+		document.getElementById('c').value = Number(document.getElementById('c').value)+1
+		document.getElementById('c10').value = Number(document.getElementById('c10').value) + 1
+	}
+	function add16 () {
+		if (Number(document.getElementById('c10').value) > 0) {
+			document.getElementById('c10').value = Number(document.getElementById('c10').value)-1
+			document.getElementById('c').value = Number(document.getElementById('c').value)-1
+		}
+	}
+	</script>
+    <style>
+      #zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie2 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie3 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie4 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie5 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie6 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie7 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+	  #zatemnenie8 {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      #okno {
+        width: 300px;
+        height: 70px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+      }
+      #zatemnenie:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  #zatemnenie2:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  #zatemnenie3:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  #zatemnenie4:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  #zatemnenie5:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	   #zatemnenie6:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	   #zatemnenie7:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	   #zatemnenie8:target {display: block;}
+      .close2 {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+	 .sizes {
+		width: 350px;
+		height: 225px;
+		margin-left: -80px;
+	}
+	.sizes3 {
+		width: 230px;
+		height: 225px;
+		margin-left: -20px;
+	}
+	.sizes2 {
+		width: 50px;
+		height: 60px;
+		float: right
+	}
+	.sizes4 {
+		width: 160px;
+		height: 210px;
+		margin-left: 60px;
+	}
+	.sizes5 {
+		width: 220px;
+		height: 215px;
+		margin-left: 60px;
+	}
+	.sizes6 {
+		width: 220px;
+		height: 220px;
+		margin-left: -20px;
+	}
+	.sizes7 {
+		width: 220px;
+		height: 220px;
+		margin-left: 60px;
+	}
+	.sizes8 {
+		width: 220px;
+		height: 220px;
+		margin-left: 40px;
+	}
+	.sizes9 {
+		width: 220px;
+		height: 220px;
+		margin-left: 30px;
+	}
+	.pum2 {
+		float:right;
+	}
+	.pum3 {
+		margin-left: 55px;
+	}
+	.pum4 {
+		margin-left: 20px;
+	}
+	.pum5 {
+		margin-left:115px;
+	}
+	.pum6 {
+		margin-left:195px;
+	}
+	.pum7 {
+		margin-left:105px;
+	}
+	.pum8 {
+		margin-left:180px;
+	}
+	.pum9 {
+		margin-left:95px;
+	}
+	.pum10 {
+		margin-left:175px;
+	}
+    </style>
+  </head>
+ 
+  <body>
+   
+    <div id="zatemnenie">
+      <div id="okno">
+        чипсы Lay's со вкусом краба(81 грамм). Цена : 50р<br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+     <div id="zatemnenie2">
+		<div id="okno">
+			чипсы Lay's со вкусом сметана/зелень(140 грамм). Цена : 70р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+	 <div id="zatemnenie3">
+		<div id="okno">
+			чипсы Lay's со вкусом соль(140 грамм). Цена : 70р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+	 <div id="zatemnenie4">
+		<div id="okno">
+			чипсы Lay's со вкусом зелень и ароматные травы "из печи"(85 грамм). Цена : 70р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+    <div id="zatemnenie5">
+      <div id="okno">
+        чипсы Lay's со вкусом сыра(140 грамм). Цена : 70р<br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+     <div id="zatemnenie6">
+		<div id="okno">
+			чипсы Lay's со вкусом бекон(81 грамм). Цена : 50р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+	 <div id="zatemnenie7">
+		<div id="okno">
+			чипсы Lay's со вкусом белые грибы(140 грамм). Цена : 70р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+	 <div id="zatemnenie8">
+		<div id="okno">
+			чипсы Lay's со вкусом лисички в сметане "из печи"(85 грамм). Цена : 70р<br>
+		<a href="#" class="close">Закрыть окно</a>
+	</div>
+      </div>
+    <img class = "sizes2" src="C:\Users\Админ\Desktop\html\корзина.jpg">
+		<form>
+			<input class = "pum2" name = "cnt" id="c" type = "button" value = "0" > 
+		</form>
+		<img class = "sizes" src="C:\Users\Админ\Desktop\html\chipsi.jpg">
+		<img class = "sizes3" src="C:\Users\Админ\Desktop\html\chipsi2.jpg">
+		<img class = "sizes4" src="C:\Users\Админ\Desktop\html\chipsi3.jpg">
+		<img class = "sizes5" src="C:\Users\Админ\Desktop\html\chipsi4.jpg"> <br>
+		<form>
+			<a href = "#zatemnenie" class = "pum4"><input type = "button" value = "информация о товаре"></a>
+			<a href = "#zatemnenie2" class = "pum5"><input type = "button" value = "информация о товаре"></a>
+			<a href = "#zatemnenie3" class = "pum7"><input type = "button" value = "информация о товаре"></a>
+		    <a href = "#zatemnenie4" class = "pum9"><input type = "button" value = "информация о товаре"></a><br>
+		    <a class = "pum3"> <input name = "cnt" type = "button" value = "-" onclick="add2()"> </a>
+			<input id="c3" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add()"> 
+			<a class = "pum6"> <input name = "cnt" type = "button" value = "-" onclick="add4()"> </a>
+			<input id="c4" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add3()"> 
+			<a class = "pum8"> <input name = "cnt" type = "button" value = "-" onclick="add6()"> </a>
+			<input id="c5" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add5()"> 
+			<a class = "pum10"> <input name = "cnt" type = "button" value = "-" onclick="add8()"> </a>
+			<input id="c6" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add7()"> 
+		</form>
+		<img class = "sizes6" src="C:\Users\Админ\Desktop\html\chipsi9.jpg">
+		<img class = "sizes7" src="C:\Users\Админ\Desktop\html\chipsi6.jpg">
+		<img class = "sizes8" src="C:\Users\Админ\Desktop\html\chipsi7.jpg">
+		<img class = "sizes9" src="C:\Users\Админ\Desktop\html\chipsi8.jpg"> <br>
+		<form>
+			<a href = "#zatemnenie5" class = "pum4"><input type = "button" value = "информация о товаре"></a>
+			<a href = "#zatemnenie6" class = "pum5"><input type = "button" value = "информация о товаре"></a>
+			<a href = "#zatemnenie7" class = "pum7"><input type = "button" value = "информация о товаре"></a>
+		    <a href = "#zatemnenie8" class = "pum9"><input type = "button" value = "информация о товаре"></a><br>
+		    <a class = "pum3"> <input name = "cnt" type = "button" value = "-" onclick="add10()"> </a>
+			<input id="c7" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add9()"> 
+			<a class = "pum6"> <input name = "cnt" type = "button" value = "-" onclick="add12()"> </a>
+			<input id="c8" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add11()"> 
+			<a class = "pum8"> <input name = "cnt" type = "button" value = "-" onclick="add14()"> </a>
+			<input id="c9" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add13()"> 
+			<a class = "pum10"> <input name = "cnt" type = "button" value = "-" onclick="add16()"> </a>
+			<input id="c10" type = "button" value = "0">
+			<input name = "cnt" type = "button" value = "+" onclick="add15()"> 
+		</form>
+  </body>
+</html>
